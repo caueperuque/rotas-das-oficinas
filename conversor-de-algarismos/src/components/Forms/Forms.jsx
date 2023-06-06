@@ -57,14 +57,10 @@ export default function Forms() {
       </div>
       <div className="row">
         <h6>
-          <span>
-            Conversão foi realizada para: Algarismo {change.type.toUpperCase()}
-          </span>
+          Conversão foi realizada para: Algarismo {change.type.toUpperCase()}
         </h6>
         <h6>
-        <span>
-            Com valor de: {change.valueNumber}
-        </span>
+          Com valor de: {change.valueNumber}
         </h6>
       </div>
     </form>
