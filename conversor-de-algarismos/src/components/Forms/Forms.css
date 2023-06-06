@@ -1,0 +1,7 @@
+.forms__container {
+  justify-content: center;
+  border: rgb(9, 167, 151) solid 3px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px rgb(92, 124, 121);
+}
