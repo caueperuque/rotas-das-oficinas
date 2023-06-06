@@ -102,7 +102,7 @@ class GameOfLife extends Component {
 
     this.timeoutHandler = window.setTimeout(() => {
       this.runGame();
-    }, 100); // Atualização a cada 1 segundo (1000 milissegundos)
+    }, 100);
   }
 
   calculateNeighbors(row, col) {
