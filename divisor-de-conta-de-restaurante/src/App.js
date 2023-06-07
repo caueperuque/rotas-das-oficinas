@@ -1,16 +1,11 @@
 import React from 'react';
-import { ContextProvider } from './context/ContextProvider';
-import CustomerList from './components/CustomerList';
-import ProductList from './components/ProductList';
-import Result from './components/Result';
+import FormsConsumer from './components/FormsConsumer';
 
 function App() {
   return (
-    <ContextProvider>
-      <CustomerList />
-      <ProductList />
-      <Result />
-    </ContextProvider>
+    <div>
+      <FormsConsumer />
+    </div>
   );
 }
 
