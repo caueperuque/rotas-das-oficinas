@@ -91,6 +91,7 @@ const FormsConsumer = () => {
           .join("")}
       </ul>
       <p>Preço Total da Conta: R$ ${total.toFixed(2)}</p>
+      </div>
     `;
   };
 
@@ -179,7 +180,7 @@ const FormsConsumer = () => {
           </div>
         </div>
       </form>
-      <div id="results"></div>
+      <div id="results" className="box"></div>
     </div>
   );
 };
